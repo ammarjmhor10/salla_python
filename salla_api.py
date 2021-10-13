@@ -82,23 +82,7 @@ class Salla:
         return items
 
 
-    def get_customer():
-        dat = []
-        for cos in range(1,26):
-            customers = get_url_fCB(f'customers?page={cos}')
-            for customer in customers['data']:
-                info ={'id': customer['id'],
-            'first_name': customer['first_name'],
-            'last_name': customer['last_name'],
-            'mobile': customer['mobile'],
-            'email':customer['email'] ,
-            'gender':customer['gender'] ,
-            'birthday': customer['birthday'],
-            'city': customer['city'],
-            'location': customer['location']}
-                
-                info['email']
-                dat.append(info)
+   
 
 
 
