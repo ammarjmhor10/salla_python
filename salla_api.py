@@ -71,15 +71,7 @@ class Salla:
         add = self.post(shcema,url)
 
         return add
-    def loop(self,part,func=None):
-        items = []
-        pages = self.get_id(part)
-        for page in range(pages['totalPages']):
-            link = pages['links']['next']
-            thing = self.get(link)
-            items.append(thing)
-    
-        return items
+
 
 
    
