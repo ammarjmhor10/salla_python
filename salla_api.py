@@ -100,18 +100,6 @@ class Salla:
                 info['email']
                 dat.append(info)
 
-api = '9fd9f564d29cb533b95f5bcc2c1f4bcba0643fdaa64619b8d2b090ffdf5590d0'
-
-fcb = Salla(api)
-shcema = {
-                "name": "T-Shirdddt Blue",
-                "price": 96.33,
-                "status": "out",
-                "product_type": "product"
-                }
-
-print(fcb.create_products(shcema))
-
 
 
 
