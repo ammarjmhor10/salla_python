@@ -5,5 +5,7 @@
 
 
 
-this module to help devolpers!
+this module helps devolperes to create apps in fast way by python developers!
+
+
 
